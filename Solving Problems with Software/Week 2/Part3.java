@@ -1,7 +1,7 @@
 public class Part3 {
     public boolean twoOccurrences(String  stringa, String stringb){
         int firstOccurrence = stringb.indexOf(stringa);
-        int secondOccurrence = stringb.indexOf(stringa, firstOccurrence + stringa.length());
+        int secondOccurrence = stringb.indexOf(stringa, firstOccurrence + 1);
         
         if((firstOccurrence > -1) && (secondOccurrence > -1)){
             return true;
