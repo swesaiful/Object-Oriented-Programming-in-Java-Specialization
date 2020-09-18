@@ -54,7 +54,7 @@ public class Part3 {
         String found = stringb;
         int occurrence = stringb.indexOf(stringa);
         if(occurrence != -1){
-            found = stringb.substring(occurrence + stringa.length(), stringb.length());
+            found = stringb.substring(occurrence + stringa.length());
         }
         return found;
     }
